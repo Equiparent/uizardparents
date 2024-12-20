@@ -1,0 +1,100 @@
+.bar {
+  font-family: $main_font;
+  color: $white;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 375px) {
+  .bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 100%;
+  }
+}
+@media (min-width: 390px) {
+    .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    }
+}
+@media (min-width: 760px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    
+  }
+}
+
+
+    .bar__goback {
+      margin-top: 5rem;
+      color: $white;  
+      size: 3rem;
+      align-items: center;
+    justify-content: space-between;
+    }
+    .bar__text {
+      text-align: center;
+      justify-content: space-between;
+      color: $white;
+      font-size: 2.4rem;
+      line-height: 3rem;
+  
+    }
+    .bar__menu {
+      margin-top: 5rem;
+      color: $white;     
+      size: 3rem;
+      height: 3rem;
+    }
+    .bar__img {
+      color: $white;     
+      size: 3rem;
+      height: 3rem;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0rem 0rem;
+      border-radius: 3.2rem;
+    }
+    .bar__buttonlogout {
+      cursor: pointer;
+    align-items: center;
+    padding: 0rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3.2rem;
+    background-color: $button;
+    color: white;
+    font-size: 1.4rem;
+    font-family: $main_font;
+    font-weight: 700;
+    line-height: 16px;
+    outline: none;
+    }
+    .bar__home {
+      width: 33;
+      height: 33;
+      color: $white;
+      fill: $white;
+      align-items: center;
+      justify-content: space-between;
+    }

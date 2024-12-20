@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <link rel="preload" href="css/normalize.css" as="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="/dist/css/app.css" as="app.scss">
+    <link href="/dist/css/app.css" rel="app.scss">
+</head>
+
+<body>
+    <!-- Formulario-->
+    <section>
+        <h2>Cuenta Perfil de Usuario</h2>
+    
+    <form class="formulario">
+    
+      <fieldset>
+        <legend>Completa con tus Datos</legend>
+    
+          <div class="contenedor-campos">
+    
+            <div class="campo">
+              <label>Nombre</label>
+                <input class="input-text"text" placeholder="Tu nombre" autocomplete="name">
+            </div>
+
+            <div class="campo">
+              <label>Apellido</label>
+                <input class="input-text"text" placeholder="Tu apellido" autocomplete="family-name">
+            </div>
+    
+            <div class="campo">
+              <label>Teléfono</label>
+              <input class="input-text"tel" placeholder="Tu teléfono" autocomplete="mobile">
+            </div>
+              
+            <div class="campo">
+              <label>Correo</label>
+              <input class="input-text"email" placeholder="Tu email" autocomplete="email">
+            </div> 
+              
+            <div class="campo">
+                <label>Contraseña Nueva</label>
+                <input class="input-text"Contraseña" placeholder="Nueva Contraseña">
+            </div>
+
+            <div class="campo">
+                <label>Repetir Contraseña</label>
+                <input class="input-text"Contraseña" placeholder="Nueva Contraseña">
+            </div>  <!-- .contenedor-campos -->
+    
+          <div class="alinear-derecha flex">
+            <label>Crear Cuenta</label>
+            <input class="boton w-100" type="submit" value="Enviar">
+          </div>
+      </fieldset>
+    </form>
+    </section>
+</head>
+
+
+<footer>
+    <section class="footer">
+   <div class="iconos">
+    <<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+      </svg>      
+    </div>
+
+      <p>Salir</p>
+
+      <!-- <img src="../" alt="Foto Perfil"> -->
+    </section>
+</footer>
+</body>
+</html>

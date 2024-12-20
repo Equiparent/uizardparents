@@ -1,0 +1,218 @@
+.form {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: 80%;
+    margin-inline: auto;
+    outline-color: none;
+    
+
+  }
+  @media (min-width: 320px) {
+    .form {
+      display: inline;
+      align-items: center;
+      align-content: center;
+      width: 90%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: $smartphone) {
+    .form {
+      display: inline;
+      align-items: center;
+      align-content: center;
+      width: 90%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: 428px) {
+    .form {
+      display: inline;
+      align-items: center;
+      align-content: center;
+      width: 90%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: $tablet) {
+    .form {
+      display: grid;
+      align-items: center;
+      align-content: space-between;
+      width: 50%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: $desktop) {
+    .form {
+      display: grid;
+      align-items: center;
+      align-content: center;
+      width: 50%;
+      height: 150%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: 1700px) {
+    .form {
+      display: grid;
+      align-items: center;
+      align-content: space-around;
+      width: 80%;
+      height: 150%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: $desktopXL) {
+    .form {
+      display: grid;
+      align-items: center;
+      align-content: space-around;
+      width: 80%;
+      height: 150%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+.form-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    width: 80%;
+    height: 80%;
+    margin-block: 5rem;
+    outline-color: none;
+    @media (min-width:320px) {
+      margin: inline;
+      width: 100%;
+    }
+    @media (min-width:428px) {
+      margin-inline: auto;
+      width: 90%;
+    }
+   }
+legend {
+    color: $white;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-family: $main_font;
+    line-height: 4rem;
+    padding: 0rem .8rem;
+    font-weight: 700;
+    outline: none;
+      
+  }
+input:not([type="submit"]), 
+.placeholder {
+    display: inline;
+    align-items: center;
+    align-content: center;
+    background-color: $lightblack;
+    width: 100%;
+    margin-block: 1rem;
+  }
+
+  @media (min-width: 480px) {
+      .placeholder {
+        width: 100%;
+      }
+  }
+  @media (min-width: 768px) {
+      .placeholder {
+        width: 100%;
+      }
+  }
+
+  input[type="name"] {
+    display: inline;
+    width: 30%;
+    height: 4rem;
+    padding: 0rem 0.8rem;
+    border: 0;
+    border-radius: 1rem;
+    background-color: $lightblack;
+    font-size: 2.3rem;
+    font-family: $main_font;
+    line-height: 2rem;
+    outline: none;
+    
+    
+}
+@media (min-width: 320px) {
+    input[type="name"] {
+      width: 100%;
+      font-size: 1.6rem;
+    }
+}
+@media (min-width: 768px) {
+    input[type="name"] {
+      width: 50%;
+    }
+}
+
+    input[type="lastname"] {
+      display: inline;
+      width: 60%;
+      height: 4rem;
+      padding: 0rem 0.8rem;
+      margin-left: 3rem;
+      border: 0;
+      border-radius: 1rem;
+      background-color: $lightblack;
+      font-size: 2.3rem;
+      font-family: $main_font;
+      line-height: 2rem;
+      outline: none; 
+      
+     
+    }   
+    @media (min-width: 320px) {
+      input[type="lastname"] {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.6rem;
+      }
+  }
+
+    input[type="email"], [type="password"], [type="repeatpassword"] {
+      display: inline;
+      width: 100%;
+      height: 4rem;
+      padding: 0rem 0.8rem;
+      border: 0;
+      border-radius: 1rem;
+      background-color: $lightblack;
+      color: $gray;
+      font-size: 2.3rem;
+      font-family: $main_font;
+      line-height: 2rem;
+      outline: none;
+      
+    }
+    @media (min-width: 320px) {
+      input[type="email"], [type="password"], [type="repeatpassword"] {
+      font-size: 1.6rem;
+      }
+    }
+    
+    
+    
+   
+
+
+    
+  
+
+ 

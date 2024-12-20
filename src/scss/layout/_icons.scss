@@ -1,0 +1,43 @@
+.clickicon {
+    
+    color: $darkgray;
+    fill: $darkgray;
+    font-size: 40px;
+    top: 441px;
+    left: 261px;
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-width: 320px) {
+    .clickicon {
+      display: grid;
+      align-items: center;
+      align-content: space-between;
+      width: 50%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: 840px) {
+    .clickicon {
+      display: grid;
+      align-items: center;
+      align-content: space-between;
+      width: 50%;
+      height: 80%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
+  @media (min-width: 2560px) {
+    .clickicon {
+      display: grid;
+      align-items: center;
+     
+      width: 50%;
+      height: 150%;
+      margin-inline: auto;
+      margin-bottom: 10rem;
+    }
+  }
